@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #393053;
+}
+.theme {
+  display: flex;
+  position: absolute;
+  bottom: 8vh;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 6%;
+}
+.theme button {
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 5px;
+}
+.theme .theme-toggle {
+  background-color: #393053;
+  color: #ebf4f6;
+  border: 2px solid #ebf4f6;
+}
+.theme .theme-toggle:hover {
+  color: #7a0e9e;
+}
+.container {
+  width: 440px;
+  padding: 40px 32px;
+  border-radius: 8px;
+  border: 2px solid #635985;
+}
+.container h1 {
+  font-size: 1.6rem;
+  color: #ebf4f6;
+  text-align: center;
+}
+.container .social-login {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.container .social-login button {
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ebf4f6;
+  border: 1px solid #ebf4f6;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.container .social-login button i {
+  font-size: 26px;
+}
+.container .social-login button:hover {
+  color: #6b43ff;
+  border-color: #6b43ff;
+}
+
+.container .divider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container .divider .line {
+  height: 1px;
+  width: 100%;
+  background: #ebf4f6;
+  opacity: 1;
+  margin: 30px 0px 16px;
+}
+
+.container form label {
+  color: #ebf4f6;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+  display: block;
+  margin-top: 12px;
+}
+
+.container form .custome-input {
+  position: relative;
+}
+
+.container form .custome-input input {
+  color: #ebf4f6;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  height: 46px;
+  letter-spacing: 0.03rem;
+  border: 1px solid #ebf4f6;
+  background: transparent;
+  outline: none;
+  border-radius: 8px;
+  text-indent: 20px;
+  margin-top: 6px;
+  transition: all 0.3s ease;
+}
+
+.container form .custome-input input:focus {
+  border-color: #5222fd;
+}
+
+.container form .custome-input i {
+  position: absolute;
+  font-size: 28px;
+  right: 10px;
+  top: 14px;
+  transition: all 0.3s ease;
+}
+
+.container form .custome-input input:focus + i {
+  color: #5222fd;
+}
+
+.container form .login {
+  width: 100%;
+  margin-top: 30px;
+  background: #7a0e9e;
+  color: #ebf4f6;
+  border: none;
+  line-height: 50px;
+  font-size: 18px;
+  letter-spacing: 0.025rem;
+  cursor: pointer;
+  font-weight: 800;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.container form .login:hover {
+  background: #5222fd;
+}
+
+.container .links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.container .links a {
+  color: #7a0e9e;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  text-underline-offset: 6px;
+  text-decoration-color: #6b43ff;
+}
+.container .links a:hover {
+  text-decoration: underline;
+  color: #5222fd;
+}

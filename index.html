@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link id="themeSelector" rel="stylesheet" href="style1.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="theme">
+      <button theme-toggle class="theme-toggle">
+        <i class="bx bxs-moon" id="moon">Dark</i>
+      </button>
+    </div>
+    <div class="container">
+      <h1>Welcome to your account</h1>
+      <div class="social-login">
+        <button class="google">
+          <i class="bx bxl-google"></i>
+          Use Google
+        </button>
+        <button class="apple">
+          <i class="bx bxl-apple"></i>
+          Use Apple
+        </button>
+      </div>
+      <form>
+        <label for="email">Email:</label>
+        <div class="custome-input">
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            autocomplete="on"
+          />
+          <i class="bx bx-at"></i>
+        </div>
+        <label for="password">Password</label>
+        <div class="custome-input">
+          <input
+            type="password"
+            name="password"
+            placeholder="Your Password"
+            autocomplete="off"
+          />
+          <i class="bx bxs-lock"></i>
+        </div>
+        <button class="login">Login</button>
+        <div class="links">
+          <a href="#">Sign Up</a>
+          <a href="#">Reset Password</a>
+        </div>
+      </form>
+    </div>
+    <script src="source.js"></script>
+  </body>
+</html>
